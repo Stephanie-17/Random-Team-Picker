@@ -1,0 +1,76 @@
+body{
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    height: 100vh;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+h1{
+    width: 60%;
+    font-size: x-large;
+    text-align: center;
+}
+#textarea{
+    width: 50%;
+    height: 40px;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.input{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+input{
+    width: 22%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+.players{
+    margin: 10px;
+    
+
+}
+.player{
+   
+    margin:  10px;
+    padding: 10px 20px;
+    background-color: navy;
+    border-radius: 50px;
+    color: aliceblue;
+    display: inline-block;
+}
+
+.teams{
+    margin: 0;
+    display: flex;
+    gap: 50px;
+   
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+     align-items: center;
+    justify-content: center;
+}
+.team h3{
+    margin: 0;
+    font-weight: 600;
+}
+.highlight{
+  background-color: rgb(157, 157, 193);
+  color: black;
+}
