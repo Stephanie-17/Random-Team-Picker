@@ -55,6 +55,8 @@ input{
     margin: 0;
     display: flex;
     gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
    
 }
 .team{
@@ -73,4 +75,18 @@ input{
 .highlight{
   background-color: rgb(157, 157, 193);
   color: black;
+}
+.reshuffle{
+    margin-top: 20px;
+    background-color: navy;
+    color: white;
+    width: 10%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
 }

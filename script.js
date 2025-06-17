@@ -48,6 +48,7 @@ function randomSelectPlayers(teamNumber) {
     setTimeout(() => {
         pickTeams(teamNumber)
         clearInterval(interval)
+        document.querySelector('.reshuffle').classList.remove('hidden')
     }, 30*100);
 }
 
